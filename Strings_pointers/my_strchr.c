@@ -5,7 +5,7 @@ char* my_strchr(char*str,char ch);
 int main(){
 
     char* str = "Hello World";
-    char ch = 'l';
+    char ch = 'H';
  
     char* res = my_strchr(str,ch);
 
@@ -24,7 +24,6 @@ int main(){
      while(*str != '\0'){
            if(*str == ch){return str;}
            str++;
-     }if(*str == '\0'){return str;}
-     return NULL;
+     }return NULL;
 
  }
